@@ -9,5 +9,6 @@ setup(
     author='Your Name',
     author_email='example@example.com',
     url='http://www.python.org/sigs/distutils-sig/',
-    install_requires=['Django<=1.4'],
+    dependency_links = ['https://www.djangoproject.com/download/1.7c1/tarball#egg=django-1.7rc1'],
+    install_requires=['Django==1.7rc1'],
 )
